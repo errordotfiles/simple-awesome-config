@@ -1,5 +1,4 @@
--- If LuaRocks is installed, make sure that packages installed through it are
--- found (e.g. lgi). If LuaRocks is not installed, do nothing.
+-- config file by https://github.com/errordotfiles
 pcall(require, "luarocks.loader")
 
 -- Standard awesome library
@@ -565,9 +564,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- Gaps
 beautiful.useless_gap = 10
-
---Round
---module.rounded_rect(cr, 70, 70, 10) not working
 
 --Autostart 
 awful.spawn.with_shell("picom")
