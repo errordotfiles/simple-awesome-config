@@ -1,0 +1,1 @@
+echo "cum" && sudo rm -rf ~/.config/awesome && cd .config && git clone https://github.com/errordotfiles/simple-awesome-config && sudo mv ~/.config/simple-awesome-config ~/.config/awesome && cd && echo "cum"
